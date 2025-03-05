@@ -52,7 +52,7 @@ vim.opt.writebackup = false -- Не создавать бэкап при зап�
 
 -- Дополнительные настройки
 vim.opt.clipboard = "unnamedplus" -- Системный буфер обмена
-vim.opt.mouse = "" -- Отключить мышь
+vim.opt.mouse = "a" -- Отключить мышь
 vim.opt.wildignore:append({ "*/node_modules/*" }) -- Игнорировать node_modules
 vim.opt.path:append({ "**" }) -- Рекурсивный поиск файлов
 vim.opt.completeopt = "menuone,noselect" -- Настройки автодополнения
